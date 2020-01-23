@@ -1,52 +1,74 @@
 body {
-    /* Location of the image */
-    background-image: url(https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80);
-    
-    /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
-    
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
-    
-    /* Background image is fixed in the viewport so that it doesn't move when 
-       the content's height is greater than the image's height */
-    background-attachment: fixed;
-    
-    /* This is what makes the background image rescale based
-       on the container's size */
-    background-size: cover;
-    
-    /* Set a background color that will be displayed
-       while the background image is loading */
-    background-color: #464646;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,65,91,1) 0%, rgba(42,48,81,1) 100%);
   }
     
 
 
 hr {
    /* The line beneath the main content. */
-   border: black solid 1px
+   border: black solid 1px;
+   width: 700px;
+}
+
+.jumbotron {
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,65,91,1) 0%, rgba(42,48,81,1) 100%);
+}
+
+.navbar-nav a {
+   font-family: 'Rubik', sans-serif;
+   font-size: 18px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.navbar-light .navbar-brand {
+   font-family: 'Rubik', sans-serif;
+   color:#fff;
+   font-size: 25px;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-left: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color:#fff;
+}
+
+.content p {
+   color:#fff;
+   font-weight: 500;
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 600px;
+   margin-left: 75px;
+   margin-right: 75px;
 }
 
 
 #content {
+   font-family: 'Ubuntu Condensed', sans-serif;
+    color:#fff;
     text-align: center;
     padding-top: 25%;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
-    font-family: 'Abel', sans-serif;
     font-size: 5rem;
     font-weight: 500;
 }
 
-#contact {
-   color: #28234a;
-   text-decoration: underline;
+#galleryHeader {
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+   font-size: 3rem;
+   color:#fff;
 }
 
-#mainNavbar {
-   font-size: 1.5rem;
-   color: red;
-   font-family: 'Rubik', sans-serif;
+
+#contact {
+   color: blue;
+   text-decoration: underline;
 }
 
 #navLinks .nav-link:hover {
@@ -55,7 +77,4 @@ hr {
    transition-duration: 0.7s;
 }
 
-/* .navbar-brand { */
-   margin-right: 20rem;
-}
 
